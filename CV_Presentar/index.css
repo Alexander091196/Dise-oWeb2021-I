@@ -10,25 +10,101 @@ body{
     width: 100%; /*Ancho 100% el total de la pantalla adapta*/
     height: 300px; 
     background: #30C5FF;
+    transform: skewY(-4deg); /*Inclina a la izquierda*/
 }
 
 .entrada .nombre{
     width: 50%;
     height: 50%;
     position: absolute; /*Me permite mover mi contenido por la pág.*/
-    left: 15%; /*Izquierdo*/
+    left: 20%; /*Inclina a la izquierdo*/
        
 }
+
 .entrada .nombre .p-1{
     color: #FFF8F0; /*Solo texto*/
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
     font-size: 55px;
+    margin-bottom: 0 ; /*Quitar espacios entre textos*/
 }
 
 .entrada .nombre .p-2{
     color: #FFF8F0; /*Solo texto*/
     font-family: 'Anton', sans-serif;
     font-size: medium;
+    margin-top: 1 ; /*Quitar espacios entre textos*/
+    margin-bottom: 0 ; /*Quitar espacios entre textos*/
 }
+
+.entrada .img{
+    position: absolute; /*Mover con mas libertad en el contenido*/
+    top: 20%;
+    right: 85%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(4deg);
+    overflow: hidden;
+}
+
+.entrada .img img{
+    width: 180px;
+    height: 320px;
+   
+}
+
+
+.info{
+    width: 90%; /*Para que el contenido no tenga ancho*/
+    top: auto; /*Va adaptando a su contenido*/
+    background: #30C5FF ;
+    margin: 5% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
+    padding: 15px; /*Quitar espacios interiores*/
+    border-radius: 20px; /*Border del cuadro*/
+
+}
+
+.info .tituloSeccion{
+    color: #FFF8F0;
+    font-family: 'Anton', sans-serif; /*Tipo de letra*/
+    font-size: xx-large; /*Tamaño de fuente*/
+    text-align: center; /*Centrar Texto*/
+    font-weight: bolder; /*Negrita*/
+    border-bottom: 2px #FFF8F0 dashed; /*Linea inferior solid= normal , dashed = punteada*/
+}
+
+.info .tituloInfo{
+    color: #FFF8F0;
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;/*Organizar en una linea el detInfo y el tituloInfo*/
+    margin-right: 20px;
+}
+
+.info .detInfo{
+    color: #392F5A;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+
+.info span{
+    display: inline-block; /*agremaos el tamaño*/
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-right: 1%;
+    background:#FFF8F0;
+    color:aqua;
+    font-family: 'EB Garamond', serif;
+    border-radius: 5px;  
+
+}
+
+
+
 
