@@ -1,0 +1,34 @@
+/*El index.css Sirve para poner colores y formas a nuestra pagina web*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF8F0; /*Fondo*/
+}
+
+.entrada{
+    width: 100%; /*Ancho 100% el total de la pantalla adapta*/
+    height: 300px; 
+    background: #30C5FF;
+}
+
+.entrada .nombre{
+    width: 50%;
+    height: 50%;
+    position: absolute; /*Me permite mover mi contenido por la pág.*/
+    left: 15%; /*Izquierdo*/
+       
+}
+.entrada .nombre .p-1{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.entrada .nombre .p-2{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-size: medium;
+}
+
