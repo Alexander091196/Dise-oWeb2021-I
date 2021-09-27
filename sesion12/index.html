@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta Cinematográfica</title>
+</head>
+<body>
+        <div id="Contenedor"> <!--divisiones lógicas existentes en el contenido de una página web-->
+            
+            <div >
+                <img src="camara de cine.png"  alt="foto1" title="foto1">
+             </div>
+            <h2 style="text-align: center">Encuesta de Cine: Nominadas al Oscar 2021</h2>
+           
+            <img style="left: 180" src="paleta de cine.jpg" alt="foto2" title="foto2">
+
+            <form id="formulario1" name="formulario1" method="POST" action="data.php">
+                <fieldset id="datos_personales"> <!--Permite organizar en grupos los campos de un formulario-->
+                    <legend>Datos Personales</legend> <!--Crea un título para un grupos los campos-->
+                    <label for="nombre">Nombre</label> <!-- for = especifica a qué elemento de formulario está vinculada una etiqueta-->
+                    <input type="text" name="nombre" id="nombre"><br>
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido" id="apellido"><br>
+
+                    <label for="dni">DNI</label>
+                    <input type="text" name="dni" id="dni" maxlength="9"><br><!--maxlength=cant. max de num ingresar-->
+
+                    <label for="edad">Edad</label>
+                    <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+
+                    <label for="sexo">Sexo</label>
+                    <select name="sexo" id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                    </select><br>
+
+                </fieldset>
+
+                <fieldset id="mejor_pelicula">
+                    <legend>Mejor Película</legend>
+                        <input type="radio" name="pelicula" value="11"> Call Me By Your Name <br>
+                        <input type="radio" name="pelicula" value="22"> Dunkerque <br>
+                        <input type="radio" name="pelicula" value="33"> Dejame Salir <br>
+                </fieldset>
+
+                <fieldset id="pelicula_no_vistas">
+                    <legend>Películas que no hayas visto</legend>
+                        <input type="checkbox" name="pelicula" value="11"> Pelicula 01 <br>
+                        <input type="checkbox" name="pelicula" value="22"> Pelicula 02 <br>
+                        <input type="checkbox" name="pelicula" value="33"> Pelicula 03 <br>
+                        <input type="checkbox" name="pelicula" value="44"> Pelicula 04 <br>
+                        <input type="checkbox" name="pelicula" value="55"> Pelicula 05 <br>
+                </fieldset>
+
+                <fieldset id="argumento_pelicula">
+                    <legend>Argumento de la película que más te guste</legend>
+                    <textarea name="argumento" id="argumento" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <input type="reset" value="Borrar Formulario">
+                <input type="submit" value="Enviar">
+            </form>
+
+        </div>
+
+
+
+
+
+</body>
+</html>
