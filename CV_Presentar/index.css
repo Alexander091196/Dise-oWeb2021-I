@@ -7,17 +7,21 @@ body{
 }
 
 .entrada{
-    width: 100%; /*Ancho 100% el total de la pantalla adapta*/
-    height: 300px; 
+    width: 79%; /*Ancho 100% el total de la pantalla adapta*/
+    top: auto;
+    height: 300px;
     background: #30C5FF;
-    transform: skewY(-4deg); /*Inclina a la izquierda*/
+    transform: skewY(0deg); /*Inclina a la izquierda*/
+    border-radius: 20px; /*Border del cuadro*/
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+
 }
 
 .entrada .nombre{
-    width: 50%;
+    width: 80%;
     height: 50%;
     position: absolute; /*Me permite mover mi contenido por la pág.*/
-    left: 20%; /*Inclina a la izquierdo*/
+    left: 26%; /*Inclina a la izquierdo*/
        
 }
 
@@ -25,27 +29,28 @@ body{
     color: #FFF8F0; /*Solo texto*/
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
-    font-size: 55px;
+    font-size: 62px;
     margin-bottom: 0 ; /*Quitar espacios entre textos*/
 }
 
 .entrada .nombre .p-2{
     color: #FFF8F0; /*Solo texto*/
     font-family: 'Anton', sans-serif;
-    font-size: medium;
+    font-size: 25px;
+    text-align: center; /*Centrar Texto*/
     margin-top: 1 ; /*Quitar espacios entre textos*/
     margin-bottom: 0 ; /*Quitar espacios entre textos*/
 }
 
 .entrada .img{
     position: absolute; /*Mover con mas libertad en el contenido*/
-    top: 20%;
-    right: 85%;
+    top: 10%;
+    right: 78%;
     width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    transform: skewY(4deg);
-    overflow: hidden;
+    height: 250px;
+    border-radius: 10%;
+    transform: skewY(0deg);
+    overflow: hidden; /* cortar la parte de abajo*/
 }
 
 .entrada .img img{
