@@ -57,17 +57,16 @@ body{
 .entrada .img img{
     width: 180px;
     height: 320px;
-   
 }
 
 
 .info{
-    width: 90%; /*Para que el contenido no tenga ancho*/
-    top: auto; /*Va adaptando a su contenido*/
+    width: 60%; /*Para que el contenido no tenga ancho*/
+    top: 20px; /*Va adaptando a su contenido*/
     background: brown ;
     margin: 5% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
     padding: 15px; /*Quitar espacios interiores*/
-    border-radius: 20px; /*Border del cuadro*/
+    border-radius: 15px; /*Border del cuadro*/
 
 }
 
@@ -78,6 +77,7 @@ body{
     text-align: center; /*Centrar Texto*/
     font-weight: bolder; /*Negrita*/
     border-bottom: 2px #FFF8F0 dashed; /*Linea inferior solid= normal , dashed = punteada*/
+    margin:0% 0.5%;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
 }
 
 .info .tituloInfo{
@@ -87,12 +87,12 @@ body{
     font-size: large;
     display: inline;/*Organizar en una linea el detInfo y el tituloInfo*/
     margin-right: 20px;
+    text-align:end; /*Centrar Texto*/
 }
 
 .info .detInfo{
     color:honeydew;
     font-family: 'Anton', sans-serif;
-    font-weight: bolder;
     font-size: large;
     display: inline;
 
@@ -112,5 +112,12 @@ body{
 
 }
 
+.info .perfil{
+    color:honeydew;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    text-align: justify; /*justificar Texto*/
+    margin:1% 2%;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
+}
 
 
