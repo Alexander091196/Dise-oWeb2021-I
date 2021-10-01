@@ -6,11 +6,12 @@ body{
     background: #FFF8F0; /*Fondo*/
 }
 
+
 .entrada{
-    width: 79%; /*Ancho 100% el total de la pantalla adapta*/
+    width: 74%; /*Ancho 100% el total de la pantalla adapta*/
     top: auto;
     height: 300px;
-    background: #30C5FF;
+    background:brown;
     transform: skewY(0deg); /*Inclina a la izquierda*/
     border-radius: 20px; /*Border del cuadro*/
     margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
@@ -21,7 +22,7 @@ body{
     width: 80%;
     height: 50%;
     position: absolute; /*Me permite mover mi contenido por la pág.*/
-    left: 26%; /*Inclina a la izquierdo*/
+    left: 24%; /*Inclina a la izquierdo*/
        
 }
 
@@ -36,10 +37,10 @@ body{
 .entrada .nombre .p-2{
     color: #FFF8F0; /*Solo texto*/
     font-family: 'Anton', sans-serif;
-    font-size: 25px;
-    text-align: center; /*Centrar Texto*/
-    margin-top: 1 ; /*Quitar espacios entre textos*/
-    margin-bottom: 0 ; /*Quitar espacios entre textos*/
+    font-size: 28px;
+    text-align:center;
+    margin-top: 0.5 ; /*Quitar espacios entre textos*/
+    margin-bottom: 1 ; /*Quitar espacios entre textos*/
 }
 
 .entrada .img{
@@ -63,7 +64,7 @@ body{
 .info{
     width: 90%; /*Para que el contenido no tenga ancho*/
     top: auto; /*Va adaptando a su contenido*/
-    background: #30C5FF ;
+    background: brown ;
     margin: 5% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
     padding: 15px; /*Quitar espacios interiores*/
     border-radius: 20px; /*Border del cuadro*/
@@ -71,7 +72,7 @@ body{
 }
 
 .info .tituloSeccion{
-    color: #FFF8F0;
+    color:cornsilk;
     font-family: 'Anton', sans-serif; /*Tipo de letra*/
     font-size: xx-large; /*Tamaño de fuente*/
     text-align: center; /*Centrar Texto*/
@@ -80,7 +81,7 @@ body{
 }
 
 .info .tituloInfo{
-    color: #FFF8F0;
+    color:black;
     font-family: 'Anton', sans-serif;
     font-weight: bolder;
     font-size: large;
@@ -89,11 +90,12 @@ body{
 }
 
 .info .detInfo{
-    color: #392F5A;
+    color:honeydew;
     font-family: 'Anton', sans-serif;
-    font-weight: normal;
+    font-weight: bolder;
     font-size: large;
     display: inline;
+
 }
 
 .info span{
@@ -109,7 +111,6 @@ body{
     border-radius: 5px;  
 
 }
-
 
 
 
