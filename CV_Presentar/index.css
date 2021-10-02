@@ -61,7 +61,7 @@ body{
 
 
 .info{
-    width: 60%; /*Para que el contenido no tenga ancho*/
+    width: 57%; /*Para que el contenido no tenga ancho*/
     top: 20px; /*Va adaptando a su contenido*/
     background: brown ;
     margin: 5% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
@@ -94,6 +94,7 @@ body{
     color:honeydew;
     font-family: 'Anton', sans-serif;
     font-size: large;
+    font-weight: normal;
     display: inline;
 
 }
@@ -105,8 +106,8 @@ body{
     font-weight: bolder;
     padding-left: 1%;
     padding-right: 1%;
-    background:#FFF8F0;
-    color:aqua;
+    background:white;
+    color:black;
     font-family: 'EB Garamond', serif;
     border-radius: 5px;  
 
@@ -120,4 +121,38 @@ body{
     margin:1% 2%;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
 }
 
+li{
+    color:honeydew;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large; 
+}
 
+strong{
+    color:black;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+
+table{
+    margin: auto auto;
+    width: 88%;
+
+}
+
+th{
+    color:black;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    font-weight: normal;
+}
+
+td{
+    color:honeydew;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center; /*Centrar Texto*/
+}
