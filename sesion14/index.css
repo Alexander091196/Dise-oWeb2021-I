@@ -1,0 +1,12 @@
+.externo {
+    font-family: Verdana; /*Tipo de letra*/
+} 
+
+a[class="externo"] {
+    color: green;   /*Color de letra con selectores de atributo*/
+}
+
+a[href^="mailto:"] {
+    font-family: Verdana; /*Tipo de letra*/
+    color: mediumvioletred;
+} 
