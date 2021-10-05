@@ -1,0 +1,44 @@
+main{
+    width: 1200px;
+    margin: auto; /*el espacio de los costados se ponga automatico*/
+    background-color: darkgreen;
+}
+
+header{
+    background-color: yellow;
+}
+
+article{
+    background-color: thistle;
+    width: 70%;
+    float: left;
+}
+
+footer{
+    background-color: blue;
+    clear: both;
+    height: 40px;
+}
+
+nav{
+    width: 30%;
+    float: left;
+
+}
+
+h1{
+    margin: 0px;
+    padding: 10%;
+}
+
+p{
+    padding: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+
