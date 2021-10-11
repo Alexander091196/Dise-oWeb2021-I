@@ -2,12 +2,55 @@ body{
     background-color: #632432;
 }
 
+h1{
+    text-align: center;
+    font-family: Verdana;
+    color: blanchedalmond;
+    height: 100%;
+    width: auto;
+}
+
 #contenedor{
-    height: 150px auto;
-    width: 90%;
+    height: 10px auto;
+    width:85%; /*Para que el contenido no tenga ancho*/
+}
+caption{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; /*Negrita*/
+    text-align: center;
+    height: auto;
+    width: auto;
+    color: white;
+    border: 3px solid black;
 }
 
 table{
-    width: 90%;
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse; /*Colapse los bordes*/
+    width: auto;
+    border: 3px solid #0F362D;
 }
 
+th{
+    background-color: #246355;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; /*Negrita*/
+    text-align: center;
+    color: white;
+    border: 3px solid #0F362D;
+}
+
+td{
+    text-align: center;
+    font-weight: bolder; /*Negrita*/
+}
+
+tr, th, td{
+    border: 3px solid #0F362D;
+}
+
+tfoot{
+    background-color: rgba(116, 116, 116, 0.356);
+}
