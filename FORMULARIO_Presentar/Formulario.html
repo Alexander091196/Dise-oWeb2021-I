@@ -8,37 +8,34 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div id="foto" >
-        <img src="estatuacine.png" style="float: left" alt="estatua_cine" title="estatua_cine">
-        
-    </div><br><br>
+    <div id="idfoto">
+        <img id="foto" src="estatuacine.png" alt="estatua_cine" title="estatua_cine">
+    </div>
 
     <div id="contenedor"> <!--divisiones lógicas existentes en el contenido de una página web-->
         
-            <h2>Encuesta de Cine: Nominadas al Oscar 2021</h2><br><br>
+            <h2>Encuesta de Cine: Nominadas al Oscar 2021</h2><br>
 
         <form id="formulario1" name="formulario1" method="POST" action="data.php">
             <fieldset id="datos_personales"> <!--Permite organizar en grupos los campos de un formulario-->
                 <legend>Datos Personales</legend> <!--Crea un título para un grupos los campos-->
-                <label for="nombre">Nombre</label> <!-- for = especifica a qué elemento de formulario está vinculada una etiqueta-->
+                <label for="nombre">Nombre</label> <br><!-- for = especifica a qué elemento de formulario está vinculada una etiqueta-->
                 <input type="text" name="nombre" id="nombre"><br>
 
-                <label for="apellido">Apellido</label>
+                <label for="apellido">Apellido</label><br>
                 <input type="text" name="apellido" id="apellido"><br>
 
-                <label for="dni">DNI</label>
+                <label for="dni">DNI</label><br>
                 <input type="text" name="dni" id="dni" maxlength="9"><br><!--maxlength=cant. max de num ingresar-->
 
-                <label for="edad">Edad</label>
+                <label for="edad">Edad</label><br>
                 <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
 
-                <label for="sexo">Sexo</label>
+                <label for="sexo">Sexo</label><br>
                 <select name="sexo" id="sexo">
                     <option value="masculino">Masculino</option>
                     <option value="femenino">Femenino</option>
                 </select><br>
-
             </fieldset>
 
             <fieldset id="mejor_pelicula">
@@ -59,13 +56,16 @@
 
             <fieldset id="argumento_pelicula">
                 <legend>Argumento de la película que más te guste</legend>
-                <textarea id="argumento" name="argumento" cols="30" rows="10"></textarea>
+                <textarea name="argumento" cols="37" rows="12"></textarea>
             </fieldset>
 
-            <input type="reset" value="Borrar Formulario">
-            <input type="submit" value="Enviar">
+            <input class="button1" type="reset" value="Borrar Formulario">
+            <input class="button2" type="submit" value="Enviar">
         </form>
+        <br>
+        <br>
     </div>
+    <br>
 
 </body>
 </html>
