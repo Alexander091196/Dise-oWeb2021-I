@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+
+#contenedor{
+    background-color: grey;
+}
+
+#foto{
+    width: 60%;
+    height: 60%;
+}
+
+#formulario1{
+    background-color: hotpink;
+
+}
