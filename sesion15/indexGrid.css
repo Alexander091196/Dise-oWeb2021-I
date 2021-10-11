@@ -1,37 +1,35 @@
 .grid{
+    min-height: 100vh; /*Para toda la pantalla*/
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 200px 1fr 100px;
 
-    grid-template-areas: "head head"
-    "nav nav"
-    "section section"
-    "aside aside"
-    "foot foot";
-
+    grid-template-areas: "head head head"
+    "nav contenido aside"
+    "foot foot foot";
 }
 
-.a{
+header{
     grid-area: head;
-    background-color: red;
+    background-color:lightsalmon;
 }
-.b{
+nav{
     grid-area: nav;
-    background-color: blue;
+    background-color:lightseagreen;
 }
-.c{
-    grid-area: section;
-    background-color: yellow;
+section{
+    grid-area: contenido;
+    background-color:lightskyblue;
 }
-.d{
+aside{
     grid-area: aside;
-    background-color: green;
+    background-color:olive;
 }
-.e{
+footer{
     grid-area: foot;
     background-color: grey;
 }
 
-.a, .b, .c, .d, .e{
+header, nav, section, aside, footer{
     border: 2px solid black;
 }
