@@ -1,0 +1,184 @@
+body{
+    background-color: #04151F;
+    position: relative;
+}
+
+.sesion{
+    font-size: 20px;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0px 50px;
+    float: right;
+    clear: left; 
+}
+
+.sesion a{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header{
+    width: 100%; /*Ancho 100% el total de la pantalla adapta*/
+    top: 60%;
+    height: 300px;
+    background: #04151F;
+    margin: auto auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+}
+
+header .nombre{
+    width: 80%;
+    height: 50%;
+    position: absolute; /*Me permite mover mi contenido por la pág.*/
+    left: 24%; /*Inclina a la izquierdo*/   
+}
+
+header .nombre .p-1{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    font-size: 52px;
+    margin-bottom: 0 ; /*Quitar espacios entre textos*/
+}
+
+header .nombre .p-2{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-align:left;
+    margin-top: 0.5 ; /*Quitar espacios entre textos*/
+    margin-bottom: 1 ; /*Quitar espacios entre textos*/
+}
+
+header .img{
+    position: absolute; /*Mover con mas libertad en el contenido*/
+    top: 3%;
+    right: 82%;
+    width: 180px;
+    height: 250px;
+    border-radius: 10%;
+    transform: skewY(0deg);
+    overflow: hidden; /* cortar la parte de abajo*/
+}
+
+h2{
+    color: white; /*Solo texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+.nav{
+    width: 15%;
+    float: left;
+}
+
+.nav .menu div{
+    width: 90%; /*Ancho 100% el total de la pantalla adapta*/
+    top: auto;
+    height: auto;
+    background: white;
+    border-radius: 5px; /*Border del cuadro*/
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+    
+}
+.nav .menu .item{
+    color: black;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+
+}
+
+.nav .menu .item a{
+    color: black;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    clear: left; 
+}
+
+
+article{
+    background-color: #fce9df;
+    width: 85%;
+    float: left;
+    height: auto;
+}
+
+.navegador2{
+    width: 100%;
+    display: flex;
+}
+
+.navegador2 ul{
+    display: flex;
+}
+
+.navegador2 ul li{
+    list-style: none;
+    padding: 0px 90px;
+}
+
+.navegador2 ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    clear: left; 
+}
+
+.navegador2 div{
+    width: 100%; /*Ancho 100% el total de la pantalla adapta*/
+    top: auto;
+    height: auto;
+    background: #282e31;
+    margin: auto auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+    border: 3px solid #fce9df;
+    border-collapse: collapse; /*Colapse los bordes*/
+    clear: left; 
+}
+
+article .img2{
+    top: auto;
+    right: auto;
+    width: 300px;
+    height: 182px;
+    float: left;
+}
+
+.img2{
+    right: 12%;
+    width: 12%;
+    height: 12%;
+    overflow: hidden; /* cortar la parte de abajo*/
+}
+
+footer{
+    background-color: blue;
+    clear: both;
+    height: 40px;
+}
+
+footer .titu{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    float: left;
+}
+footer .pie .item2{
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    float: left;
+}
+
