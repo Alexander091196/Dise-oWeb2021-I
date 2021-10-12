@@ -5,6 +5,7 @@ body{
 
 .navegador1{
     width: 100%;
+    display: flex;
 }
 
 .navegador1 ul{
@@ -13,7 +14,7 @@ body{
 
 .navegador1 ul li{
     list-style: none;
-    padding: 15px 50px;
+    padding: 0px 50px;
 }
 
 .navegador1 ul li a{
@@ -21,10 +22,6 @@ body{
     font-size: 20px;
     font-family: sans-serif;
     text-decoration: none;
-}
-
-div{
-    height: 25px;
 }
 
 .menu{
@@ -59,12 +56,34 @@ h3{
 .titNoticia{
     color: black;
     text-align: center;
-    font-weight: bolder; /*Negrita*/
+    font-weight: bolder;
     font-size: 30px;
+    height: 100px;
+    right: 300px;
+    width: 100% ; /*+100 paa la izquierda*/
 }
 
-p{
+#par{
     color: black;
-    text-align: justify;
+    text-align: normal;
     font-size: 20px;
+    width: 100%;
+    clear: left; 
+}
+
+#foto{
+    float: right;
+    width: 39%;
+    height: 41%;
+    padding: 0px;
+    border-width: 5px;
+    border-color: Black;
+  
+}
+
+#pie{
+    color: rgb(73, 73, 73);
+    font-size: 25px;
+    width: auto;
+    float: right;
 }
