@@ -87,7 +87,7 @@ img{
     float: left;
     background-color: black;
     width: 19%;
-    height: 471px;
+    height: 838px;
 }
 
 #aside #menu h2{
@@ -161,7 +161,7 @@ img{
 
 #caja0{
     padding: 2% 2%;
-    
+    display: inline-block;
 }
 
 #pie{
