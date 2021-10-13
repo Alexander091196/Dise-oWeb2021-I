@@ -1,0 +1,152 @@
+/*El index.css Sirve para poner colores y formas a nuestra pagina web*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #07A0C3; /*Fondo*/
+}
+
+
+.entrada{
+    width: 74%; /*Ancho 100% el total de la pantalla adapta*/
+    top: auto;
+    height: 300px;
+    background: #04151F;
+    transform: skewY(0deg); /*Inclina a la izquierda*/
+    border-radius: 20px; /*Border del cuadro*/
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+}
+
+.entrada .nombre{
+    width: 80%;
+    height: 50%;
+    position: absolute; /*Me permite mover mi contenido por la pág.*/
+    left: 24%; /*Inclina a la izquierdo*/   
+}
+
+.entrada .nombre .p-1{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    font-size: 62px;
+    margin-bottom: 0 ; /*Quitar espacios entre textos*/
+}
+
+.entrada .nombre .p-2{
+    color: #FFF8F0; /*Solo texto*/
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-align:center;
+    margin-top: 0.5 ; /*Quitar espacios entre textos*/
+    margin-bottom: 1 ; /*Quitar espacios entre textos*/
+}
+
+.entrada .img{
+    position: absolute; /*Mover con mas libertad en el contenido*/
+    top: 10%;
+    right: 78%;
+    width: 180px;
+    height: 250px;
+    border-radius: 10%;
+    transform: skewY(0deg);
+    overflow: hidden; /* cortar la parte de abajo*/
+}
+
+.entrada .img img{
+    width: 180px;
+    height: 320px;
+}
+
+
+.info{
+    width: 65%; /*Para que el contenido no tenga ancho*/
+    top: 20px; /*Va adaptando a su contenido*/
+    background: #FFF8F0;
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
+    padding: 12px; /*Quitar espacios interiores*/
+    border-radius: 15px; /*Border del cuadro*/
+}
+
+.info .tituloSeccion{
+    color:#04151F;
+    font-family: 'Anton', sans-serif; /*Tipo de letra*/
+    font-size: xx-large; /*Tamaño de fuente*/
+    text-align: center; /*Centrar Texto*/
+    font-weight: bolder; /*Negrita*/
+    border-bottom: 3px #01295F dashed; /*Linea inferior solid= normal , dashed = punteada*/
+    margin:0% 0.5%;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
+}
+
+.info .tituloInfo{
+    color:black;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;/*Organizar en una linea el detInfo y el tituloInfo*/
+    margin-right: 20px;
+    text-align:end; /*Centrar Texto*/
+}
+
+.info .detInfo{
+    color:#01295F;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+
+.info span{
+    display: inline-block; /*agremaos el tamaño*/
+    width: auto;
+    height: auto;
+    font-weight: bolder;
+    padding-left: 1%;
+    padding-right: 1%;
+    background:#01295F;
+    color:#FFF8F0;
+    font-family: 'EB Garamond', serif;
+    border-radius: 5px;  
+}
+
+.info .perfil{
+    color:#01295F;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    text-align: justify; /*justificar Texto*/
+    margin:1% 2%;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */
+}
+
+li{
+    color:#01295F;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large; 
+}
+
+strong{
+    color:black;
+    font-family: 'Anton', sans-serif;
+    font-size: large;
+    font-weight: normal;
+    display: inline;
+}
+
+table{
+    margin: auto auto;
+    width: 88%;
+}
+
+th{
+    color:#086788;
+    font-family: 'Anton', sans-serif;
+    font-size:large;
+    font-weight: normal;
+}
+
+td{
+    color:#01295F;
+    font-family: 'Anton', sans-serif;
+    font-weight: normal;
+    font-size: large;
+    text-align: center; /*Centrar Texto*/
+}

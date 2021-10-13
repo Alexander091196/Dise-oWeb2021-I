@@ -1,0 +1,210 @@
+#caja{
+  
+    height: 180px;
+    background: wheat;
+    padding-top: 28px;
+    padding-bottom:28px;   
+}
+
+#caja li{
+    width: 15%;
+    float: right;
+    list-style: none;
+    padding: 0px 50px;
+    font-size: 20px;
+    padding: 0px 0px;
+}
+
+#caja a{
+    color: black;
+}
+
+.sesion a{
+    color: white;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#caja #p-1{
+    font-size: 38px;
+    font-family:Times New Roman;
+    color: black;
+    font-weight: bolder;
+    padding-top: 1%;
+    margin-bottom: 0;
+}
+
+#caja #p-2{
+    font-size: 18px;
+    font-family:Times New Roman;
+    color: black;
+    font-weight: bolder;
+    padding-top: 0%;
+    text-align:left;
+    margin-bottom: 0;
+}
+
+img{
+    float:left;
+    margin: 1%;
+    width: 150px;
+    border-radius: 10%;
+}
+
+#Barra ul{
+    margin: 0%;
+}
+
+#Barra ul li  {  
+    list-style: none;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 17px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+#Barra a:link, #Barra a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+#Barra ul li:hover{
+    background-color: white;
+}
+
+#Barra {
+    background: gray;
+    float:none;
+    height: 57px;
+}
+
+#aside{
+    float: left;
+    background-color: black;
+    width: 19%;
+    height: 838px;
+}
+
+#aside #menu h2{
+    color: white; /*Solo texto*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#aside #menu {
+    list-style: none;
+    width: 100%;
+    margin: 15px;
+    top: auto;
+    height: auto;
+    padding-top: 5px;
+    border-radius: 5px; /*Border del cuadro*/
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+}
+
+#aside #menu ul div{
+    width: 70%; /*Ancho 100% el total de la pantalla adapta*/
+    top: auto;
+    height: auto;
+    background: white;
+    border-radius: 5px; /*Border del cuadro*/
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+}
+#aside #menu li{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#aside #menu li a{
+    color: black;
+    font-size: 22px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    clear: left; 
+}
+
+#aside ul{
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+#caja0 div{
+    width: 101%;
+}
+
+#caja0 strong{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#cv_mejorado{
+    float: left;
+    width: 300px;
+    margin-right: 1%; 
+    margin-top: 0.5%;
+    margin-left: 1%;
+}
+#caja0 p{
+    text-align: justify;
+    width: 100%;
+}
+
+#caja0{
+    padding: 2% 2%;
+    display: inline-block;
+}
+
+#pie{
+    height: 200px;
+    background-color: rgb(190, 169, 189);   
+}
+
+ #pie div {
+    margin: 2%;
+    margin-left: 4%;
+    float: left;
+} 
+
+#pie img{
+  width: 9%;
+  float: left;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+#pie div ul{
+    padding-left:20px ;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#pie div Strong{
+    text-align: center;    
+}
+
+#master{
+    border: black, solid;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    margin: 0% !important;
+    text-align: center;
+} 
+
+#master p{
+   margin-top: 15PX;
+   margin-bottom: 15px;
+   font-size: 20px;
+}
+
