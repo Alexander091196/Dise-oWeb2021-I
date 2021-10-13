@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/cv_clas.css">
+    <link rel="stylesheet" href="css/iniciosesion.css">
     <title>Document</title>
 </head>
 
@@ -20,6 +20,7 @@
         <p id="p-2">Mi página Web Personal</p>
 
     </div>
+
     <div id="Barra">
 
         <ul>
@@ -73,82 +74,22 @@
 
     </div>
 
-    <div id="caja0">
-        <strong style="color: black;"></strong>
-
-        <a href="#perfil">Perfil</a><br>
-        <a href="#experiencia">Experiencia Profesional</a><br>
-        <a href="#habilidades">Habilidades y Conocimientos</a><br>
-        <a href="#educacion">Educación</a><br>
-        <hr>
-        <ul>
-            <li><strong>Ciudad: </strong>Chiclayo</li>
-            <li><strong>Teléfono: </strong>+51961549623</li>
-            <li><strong>Fecha de Nacimiento: </strong>09/11/1996</li>
-            <li><strong>email: </strong>seclen49@gmail.com</li>
-        </ul>
-
-        <hr>
-        <h1>Perfil</h1>
-        <p>
-            Estudiante de Ingeniería
-        </p>
-
-        <hr>
-        <h1>Experiencia Profesional</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Empresa / Organización</th>
-                    <th>Cargo</th>
-                    <th>Localización</th>
-                    <th>Desde - Hasta</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>USAT</td>
-                    <td>Tutor USAT</td>
-                    <td>Chiclayo</td>
-                    <td>Marzo 2019 - Diciembre 2019</td>
-                </tr>
-            </tbody>
-        </table>
-
-
-        <hr>
-        <h1>Habilidades y Conocimientos</h1>
-
-        <ul>
-            <li><strong>Desarrollo Web: </strong>HTML,JavaScript,MySQL</li>
-            <li><strong>Analítica Web: </strong>Goolge Analytics, Mixpanel</li>
-            <li><strong>Aplicaciones: </strong>Microsofy Office, LibreOffice</li>
-            <li><strong>Marketing: </strong>email marketing, Redes Sociales, Gamificación</li>
-        </ul>
-
-        <hr>
-        <h1>Otros Cursos</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th>Estudios</th>
-                    <th>Entidad</th>
-                    <th>Condicion</th>
-                    <th>Año</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ingenieria de Sistemas</td>
-                    <td>USAT</td>
-                    <td>Estudiante</td>
-                    <td>2019</td>
-                </tr>
-            </tbody>
-
-
-        </table>
-
+    <div id="contenedor">
+        <form action="formularioinicio" name="formularioIn" method="POST" action="data.php">
+            <fieldset id="datospersonales">
+                <h2>Inicio de sesión:</h2>
+                <hr>
+                <label for="usuario">Usuario</label> <br><br>
+                <input type="text" name="nombre" id="nombre" placeholder="Carlos_Alexánder"> <br><br>
+                <label for="contraseña">Contraseña</label><br><br>
+                <input type="password" name="contraseña" id="contraseña" placeholder="contraseña"><br><br>
+                <button>Ingresar</button>
+                <p>¿Olvido su contraseña?</p>
+                <hr>
+                <label for="NuevoUsuario">Nuevo Usuario</label><br><br>
+                <button>Registrarse</button>
+            </fieldset>
+        </form>
     </div>
 
     <div id="pie">

@@ -1,4 +1,5 @@
 #caja{
+  
     height: 180px;
     background: wheat;
     padding-top: 28px;
@@ -86,7 +87,7 @@ img{
     float: left;
     background-color: black;
     width: 19%;
-    height: 954px;
+    height: 482px;
 }
 
 #aside #menu h2{
@@ -136,35 +137,14 @@ img{
     padding-top: 0px;
 }
 
-#caja0 div{
-    width: 101%;
-}
-
-#caja0 strong{
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-#cv_mejorado{
-    float: left;
-    width: 300px;
-    margin-right: 1%; 
-    margin-top: 0.5%;
-    margin-left: 1%;
-}
-#caja0 p{
-    text-align: justify;
-    width: 100%;
-}
-#caja0 img{
-    width: 20%;
-}
-
-#caja0{
-    padding: 2% 2%;
+form{
+    background-color: rgb(178, 174, 209);
+    padding: 2%;
+    margin: 1%;
     margin-left: 20%; /*mover derecha*/
+    margin-right:50%;
 }
+
 
 #pie{
     height: 200px;

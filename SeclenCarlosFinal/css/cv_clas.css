@@ -161,7 +161,7 @@ img{
 
 #caja0{
     padding: 2% 2%;
-    display: inline-block;
+    margin-left: 20%; /*mover derecha*/
 }
 
 #pie{

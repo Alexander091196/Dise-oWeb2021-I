@@ -1,5 +1,4 @@
 #caja{
-  
     height: 180px;
     background: wheat;
     padding-top: 28px;
@@ -7,7 +6,7 @@
 }
 
 #caja li{
-    width: 15%;
+    width: 20%;
     float: right;
     list-style: none;
     padding: 0px 50px;
@@ -25,6 +24,7 @@
     font-family: sans-serif;
     text-decoration: none;
     font-weight: bolder;
+    
 }
 
 #caja #p-1{
@@ -87,7 +87,7 @@ img{
     float: left;
     background-color: black;
     width: 19%;
-    height: 471px;
+    height: 489px;
 }
 
 #aside #menu h2{
@@ -161,7 +161,7 @@ img{
 
 #caja0{
     padding: 2% 2%;
-    
+    margin-left: 20%; /*mover derecha*/
 }
 
 #pie{
