@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+
+#idfoto{
+    background-color: black;
+    position:fixed; /*imagen se mantiene fija*/
+    top: 1%;
+    right: 65%;
+    width: 300px;
+    height: 740px;
+    float: center;
+}
+
+#foto{
+    width: 95%;
+    height: 95%;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFBF00;
+    text-align: end;/* texto al centro*/
+    font-size: 40px; /*tamaño del texto*/
+    background: black;
+    margin: 2% auto;/*Quitar espacios exteriores con dos parametros 5% = der e izq, auto arrib y abaj */ 
+    top: 1%;
+    right: 200px;
+    width: 70%;
+    height: 60px;
+}
+
+#formulario1{
+    width: 20%;
+    right: 400px;
+    float: right;
+    position: absolute; /*Me permite mover mi contenido por la pág.*/
+}
+
+#datos_personales{
+    color: #FFBF00;
+    border-radius: 15px; /*Border del cuadro*/
+    text-align: center;/* texto al centro*/
+}
+
+legend{
+    color: white;
+    font-size: 22px; /*tamaño del texto*/
+    font-weight: bolder; /*Negrita*/
+    text-align: center;
+}
+
+#mejor_pelicula{
+    color: #FFBF00;
+    border-radius: 15px; /*Border del cuadro*/
+}
+
+#pelicula_no_vistas{
+    color: #FFBF00;
+    border-radius: 15px; /*Border del cuadro*/
+}
+
+#argumento_pelicula{
+    color: black;
+    border-radius: 15px; /*Border del cuadro*/
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border-radius: 3px; /*Border del cuadro*/
+    font-weight: bolder; /*Negrita*/
+    font-size: 16px; /*tamaño del texto*/
+}
+
+.button1 {
+    background-color: #FFBF00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 15px; /*Border del cuadro*/
+}
+
+.button2 {
+    background-color: #FFBF00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border: none;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 15px; /*Border del cuadro*/
+}
