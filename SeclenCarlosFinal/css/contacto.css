@@ -87,7 +87,7 @@ img{
     float: left;
     background-color: black;
     width: 19%;
-    height: 838px;
+    height: 431px;
 }
 
 #aside #menu h2{
@@ -141,28 +141,33 @@ img{
     width: 101%;
 }
 
-#caja0 strong{
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
+#contacto{
+    margin-left: 20%; /*mover derecha*/
+}
+#Limpiar, #Enviar{
+    background-color: rgb(26, 122, 160);
+    color: white;
+    width: auto;
+}
+form{
+    background-color: rgb(178, 174, 209);
+    padding: 5%;
+    margin: 1%;
+    margin-left: 4%;
+    margin-right:50%;
 }
 
-#img02{
+input{
+    width: 20%;
+}
+
+section div{
     float: left;
-    width: 300px;
-    margin-right: 1%; 
-    margin-top: 0.5%;
-    margin-left: 1%;
-}
-#caja0 p{
-    text-align: justify;
-    width: 100%;
+    width: 50%;
+    height: 4%;
 }
 
-#caja0{
-    padding: 2% 2%;
-    display: inline-block;
-}
+
 
 #pie{
     height: 200px;
