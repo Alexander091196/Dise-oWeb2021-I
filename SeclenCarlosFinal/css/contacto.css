@@ -168,7 +168,6 @@ section div{
 }
 
 
-
 #pie{
     height: 200px;
     background-color: rgb(190, 169, 189);   
@@ -176,14 +175,14 @@ section div{
 
  #pie div {
     margin: 2%;
-    margin-left: 4%;
+    margin-left: 8%;
     float: left;
 } 
 
 #pie img{
-  width: 9%;
+  width: 8%;
   float: left;
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 1%;
 }
 
@@ -212,4 +211,3 @@ section div{
    margin-bottom: 15px;
    font-size: 20px;
 }
-

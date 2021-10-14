@@ -24,7 +24,6 @@
     font-family: sans-serif;
     text-decoration: none;
     font-weight: bolder;
-    
 }
 
 #caja #p-1{
@@ -171,14 +170,14 @@ img{
 
  #pie div {
     margin: 2%;
-    margin-left: 4%;
+    margin-left: 8%;
     float: left;
 } 
 
 #pie img{
-  width: 9%;
+  width: 8%;
   float: left;
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 1%;
 }
 
@@ -207,4 +206,3 @@ img{
    margin-bottom: 15px;
    font-size: 20px;
 }
-

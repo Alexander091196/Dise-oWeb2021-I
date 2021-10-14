@@ -1,5 +1,4 @@
 #caja{
-  
     height: 180px;
     background: wheat;
     padding-top: 28px;
@@ -7,7 +6,7 @@
 }
 
 #caja li{
-    width: 15%;
+    width: 20%;
     float: right;
     list-style: none;
     padding: 0px 50px;
@@ -153,14 +152,14 @@ form{
 
  #pie div {
     margin: 2%;
-    margin-left: 4%;
+    margin-left: 8%;
     float: left;
 } 
 
 #pie img{
-  width: 9%;
+  width: 8%;
   float: left;
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 1%;
 }
 
@@ -189,4 +188,3 @@ form{
    margin-bottom: 15px;
    font-size: 20px;
 }
-
