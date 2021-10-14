@@ -13,7 +13,6 @@ header {
     height: 50px;
     background-color: #333;
     color: white;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -126,7 +125,182 @@ section{
 /* ---------- Bienvenidos ----------*/
 /* ---------------------------------*/
 
-
 #bienvenidos{
     text-align: center;
 }
+
+#bienvenidos p{
+    text-align: center;
+    margin-left: 5%;
+    width: 90%;
+}
+
+/* ------------------------------*/
+/* ------------ blog ------------*/
+/* ------------------------------*/
+
+#blog h3, h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blogs article{
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width: 250px;
+    height: 190px;
+    border-radius: 0%;
+    border: 7px solid white;
+}
+
+
+/* ------------------------------*/
+/* -------- Habitaciones --------*/
+/* ------------------------------*/
+
+#info{
+    background: #333;
+    color: white;
+    text-align:center;
+    padding: 25px;
+}
+
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-hab{
+    margin: 20px;
+}
+
+.info-hab img{
+    width: 200px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+
+
+/* ------------------------------*/
+/* ---------- Pie-redes ---------*/
+/* ------------------------------*/
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.hotel{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.redes{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.redes a{
+    color: black;
+    text-decoration: none;
+}
+
+/* -----------------------------------*/
+/* ---------- según Pantalla ---------*/
+/* -----------------------------------*/
+
+@media(min-width:1024px){
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+    
+    .menu a{
+        border:none;
+    }
+
+    header label{
+        display: none;
+    }
+
+
+}
+
+
+@media(min-width:480px){
+    #banner h2{
+        font-size: 40px;
+    }
+
+    #banner a{
+        margin-top: 25px;
+    }
+    .info-hab{
+        width: 50%;
+    }
+}
+
+@media(min-width:768px){
+    #banner {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+
+    .info-hab{
+        width: 40%;
+    } 
+    
+    #bienvenidos p{
+        text-align: center;
+        margin-left: 15%;
+        width: 70%;
+        
+    }
+}
+
+@media(min-width:1024px){
+    #banner img{
+        margin-top: -350px;
+    }
+
+    .contenedor{
+        width: 1000px;
+    }
+    .info-hab{
+        width: auto;
+    }
+
+    .redes{
+        width: auto;
+    }
+
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
+
+
+

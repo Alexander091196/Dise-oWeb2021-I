@@ -86,7 +86,7 @@ img{
     float: left;
     background-color: black;
     width: 19%;
-    height: 954px;
+    height: 675px;
 }
 
 #aside #menu h2{
@@ -136,35 +136,54 @@ img{
     padding-top: 0px;
 }
 
-#caja0 div{
-    width: 101%;
-}
-
-#caja0 strong{
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-#cv_mejorado{
-    float: left;
-    width: 300px;
-    margin-right: 1%; 
-    margin-top: 0.5%;
-    margin-left: 1%;
-}
-#caja0 p{
-    text-align: justify;
+.proyectos{
     width: 100%;
-}
-#caja0 img{
-    width: 20%;
+    max-width: 1200px;
+    height: 675px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto; 
 }
 
-#caja0{
-    padding: 2% 2%;
-    margin-left: 20%; /*mover derecha*/
+.proyectos .proy{
+    width: 330px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px gray;
+    overflow: hidden;
+    margin: 20px; 
+    text-align: center;
+    transition: all 0.25s;
 }
+
+
+.proyectos .proy:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px black;
+}
+
+.proyectos .proy img{
+    width: 330px;
+    height: 220px;
+}
+
+.proyectos .proy h4{
+    font-weight: 600;
+}
+
+.proyectos .proy p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.proyectos .proy a{
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
+
 
 #pie{
     height: 200px;
@@ -173,14 +192,14 @@ img{
 
  #pie div {
     margin: 2%;
-    margin-left: 4%;
+    margin-left: 8%;
     float: left;
 } 
 
 #pie img{
-  width: 9%;
+  width: 8%;
   float: left;
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 1%;
 }
 
