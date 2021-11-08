@@ -1,0 +1,16 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 4em;
+    background: cornsilk;
+    width: 400px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    box-shadow: 5px 5px 5px black;
+    margin: 30vh auto;
+    padding: 8px;
+}
