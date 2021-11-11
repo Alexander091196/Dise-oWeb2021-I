@@ -4,20 +4,25 @@ span{
     float: left;
     padding-left:4px;
 }
+
 .nom{
     background-color: darkgrey;
 }
+
 .titu{
     background-color: green;
 }
+
 li{
     list-style: none;
     margin-top: 1px;
 }
+
 ul{
     margin: 0px;
     padding-left: 0px;
 }
+
 #contenedor{
     width: 360px;
     margin: auto;

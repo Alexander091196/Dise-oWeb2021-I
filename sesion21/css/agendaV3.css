@@ -1,14 +1,24 @@
+#contenedor{
+    width:500px;
+    margin: auto;
+    background-color: floralwhite;
+    padding-left: 10px;
+    font-family: calibri;
+}
+
 span{
-    width:100px;
+    width:110px;
     display: block;
     float: left;
     padding-left: 4px;
 }
 .nom{
     background-color: darkgrey;
+    text-align: center;
 }
 .titu{
     background-color: green;
+    text-align: center;
 }
 li{
     list-style: none;
@@ -18,10 +28,21 @@ ul{
     margin: 0px;
     padding-left: 0px;
 }
-#contenedor{
-    width: 360px;
-    margin: auto;
-    background-color: floralwhite;
-    padding-left: 10px;
-    font-family: calibri;
+
+.tituEmail{
+    width: 265px;
+    text-align: center;
+    background-color: green;
+}
+
+.nomemail{
+    background-color: darkgrey;
+    width: 265px;
+    text-align: center;
+}
+
+#aviso{
+    background-color: pink;
+    width: 500px;
+    text-align: center;
 }

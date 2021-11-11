@@ -1,7 +1,8 @@
 input{
-    display:block;
+    display:block; /* Transforma lo de linea en bloque */
     margin: 10px;
 }
+
 .datos_entrada{
     width: 40%;
     margin: auto;
