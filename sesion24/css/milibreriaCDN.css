@@ -1,0 +1,14 @@
+#contenedor{
+    background-color: aquamarine;
+}
+
+/* Toda las clases que sean igual a "col" se le aplica lo siguiente*/
+/* div [class="col"]{
+    border: black 1px solid;
+} */
+
+.container .row>div {
+    background: #dee2e6;
+    border: 1px solid #ced4da;
+    padding: 10px;
+}
