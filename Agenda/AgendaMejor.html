@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/JavaScript" src="js/AgendaMejor.js"></script>
+    <link rel="stylesheet" href="css/AgendaMejor.css">
+
+    <title>Actividad de Clase</title>
+</head>
+
+<body onload="actualizarDatos()">
+    <div id="contenedor">
+
+        <header>
+            <h3>Mi Agenda de Contactos</h3>
+            
+            <hr>
+            <br><div id="reloj">
+                00 : 00 : 00
+            </div>
+        </header>
+        <img src="img/icono.png">
+        <form>
+            <span id="item">Nombres:</span>
+            <!-- Capturar solo letras con onkeypress -->
+            <input type="text" placeholder="Nombre" id="nombre" onkeypress="return sololetrasN(event)"><br><span
+                id="aviso"></span><br>
+            <span id="item">Apellidos:</span>
+            <!-- Capturar solo letras con onkeypress -->
+            <input type="text" placeholder="Apellido" id="apellido" onkeypress="return sololetrasA(event)"><br><span
+                id="aviso2"></span><br>
+            <span id="item">DNI:</span>
+            <!-- Capturar solo numeros -->
+            <input type="text" placeholder="DNI" id="dni"><br><br>
+            <span id="item">Num Celular:</span>
+            <!-- Capturar solo numeros -->
+            <input type="text" placeholder="Movil" id="movil"><br><br>
+            <span id="item">Email:</span>
+            <input type="text" placeholder="Email" id="email"><br><br>
+            <span id="item">Dirección:</span>
+            <input type="text" placeholder="Direccion" id="direccion"><br><br>
+
+        </form>
+        <hr />
+        <div id="botones">
+            <button id="boton" type="button" onclick="guardarDato()">Guardar</button>
+            <button id="boton" type="button" onclick="recuperarDato()">Recuperar</button>
+            <button id="boton" type="button" onclick="eliminarDato()">Eliminar</button>
+            <button id="boton" type="button" onclick="eliminarTodo()">Eliminar Todos</button>
+        </div>
+        <hr>
+        <span class="titu">Nombres</span>
+        <span class="titu">Apellidos</span>
+        <span class="titu">DNI</span>
+        <span class="titu">Num Celular</span>
+        <span class="tituEmail">Email</span>
+        <span class="tituDirec">Dirección</span><br>
+        <ul id="contactos"></ul><br>
+    </div>
+    <script src="js/agendaV3.js"></script>
+    
+</body>
+
+</html>
