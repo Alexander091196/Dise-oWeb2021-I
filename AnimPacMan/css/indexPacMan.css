@@ -1,15 +1,114 @@
-#game {
+body{
+    background: black;
+}
+
+img{
+    height: 80%;
+    width: 80%;
+    border: 5px blue;
+}
+
+
+div{
+    background: red;
+    font-weight: bold;
+    color: white;
+    padding: .8rem .5rem .6rem .7rem;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    font-size: 0;
-    transform: translateX(-50%) translateY(-50%);
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
 }
-.wall {
-	display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-color: darkblue;
-    border: 2px solid lightsteelblue;
-    box-sizing: border-box;
+
+@keyframes animar{
+    0%{
+        left: 1rem;
+        top: 6rem;
+    }
+    5%{
+        left: 32rem;
+        top: 6rem;
+        color: rgb(185, 45, 45);
+    }
+    10%{
+        left: 32rem;
+        top: 11rem;
+        color: white;
+    }
+    15%{
+        left: 47rem;
+        top: 11rem;
+        color: rgb(185, 45, 45);
+    }
+    20%{
+        top: 6rem;
+        left: 47rem;
+    }
+    25%{
+        top: 6rem;
+        left: 70rem;
+    }
+    30%{
+        top: 15.5rem;
+        left: 70rem;
+    }
+    35%{
+        top: 15.5rem;
+        left: 62rem;
+    }
+    40%{
+        top: 34.5rem;
+        left: 62rem;
+    }
+    45%{
+        top: 34.5rem;
+        left: 47rem;
+    }
+    50%{
+        top: 20rem;
+        left: 47rem;
+    }
+    55%{
+        top: 20rem;
+        left: 24rem;
+    }
+    60%{
+        top: 30rem;
+        left: 24rem;
+    }
+    65%{
+        top: 30rem;
+        left: 32rem;
+    }
+    70%{
+        top: 40rem;
+        left: 32rem;
+    }
+    75%{
+        top: 40rem;
+        left: 1rem;
+    }
+    80%{
+        top: 30rem;
+        left: 1rem;
+    }
+    85%{
+        top: 30rem;
+        left: 10rem;
+    }
+    90%{
+        top: 16rem;
+        left: 10rem;
+    }
+    95%{
+        top: 16rem;
+        left: 1rem;
+    }
+    100%{
+        top: 16rem;
+        left: -5rem;
+    }
 }
+
+
