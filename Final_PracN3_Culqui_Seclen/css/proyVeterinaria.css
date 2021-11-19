@@ -12,8 +12,22 @@ html,body{
     align-items: center;
 }
 
-#cover-text{
-    width: 100%;
+.display-3{
+    font-weight: bold;
 }
 
+.acerca{
+    text-align: center;
+}
 
+#descrip{
+    width:auto;
+    text-align: center;
+}
+
+th{
+    color: white;
+}
+td{
+    color: white;
+}

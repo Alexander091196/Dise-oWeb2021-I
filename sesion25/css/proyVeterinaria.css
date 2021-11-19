@@ -1,0 +1,33 @@
+html,body{
+    height: 100%;
+
+}
+#cover{
+    background: #222 url(../img/maxresdefault.jpg)center no-repeat;
+    background-size: 100%;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.display-3{
+    font-weight: bold;
+}
+
+.acerca{
+    text-align: center;
+}
+
+#descrip{
+    width:auto;
+    text-align: center;
+}
+
+th{
+    color: white;
+}
+td{
+    color: white;
+}
