@@ -58,11 +58,21 @@ background-color: rgb(247, 247, 247) ;
     margin-top: 2%;
 }
 
+.offcanvas-title{
+    font-size: 30px;
+    font-weight: bold;
+}
 #popularidad{
     font-size: 45px;
     font-weight: bold;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.carousel-caption h5{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 
 .col{
@@ -84,17 +94,17 @@ background-color: rgb(247, 247, 247) ;
     .favorito{
         position: absolute;
         margin-left: 4%;
-        margin-top: 2%;
+        margin-top: 4%;
     }
     .carrito_compra{
         position: absolute;
         margin-left: 65%;
-        margin-top: 2%;
+        margin-top: 4%;
     }
     .iniciar{
         position: absolute;
         margin-left: 78%;
-        margin-top: 2%;
+        margin-top: 4%;
     }
     
 
