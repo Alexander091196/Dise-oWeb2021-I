@@ -34,7 +34,7 @@ a:hover, a:focus {
 /* contador*/
 #reloj{
     position: relative;
-    height: 23%;
+    height: 149px;
 }
 #black img{
     position: absolute;
